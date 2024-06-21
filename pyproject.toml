@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pythonominatim"
+version = "0.1.0"
+description = ""
+authors = ["holondo <holondo@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.9.5"
+geopy = "^2.4.1"
+loguru = "^0.7.2"
+pydantic = "^2.7.4"
+pytest = "^8.2.2"
+ipykernel = "^6.29.4"
+matplotlib = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
